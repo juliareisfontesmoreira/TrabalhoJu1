@@ -1,0 +1,16 @@
+Python
+def imprimir_vogais(texto):
+  """Imprime as vogais presentes em um texto.
+
+  Args:
+    texto: A palavra ou frase a ser analisada.
+  """
+
+  vogais = "aeiouAEIOU"
+  for letra in texto:
+    if letra in vogais:
+      print(letra)
+
+# Exemplo de uso:
+palavra = "Python é uma linguagem de programação"
+imprimir_vogais(palavra)
